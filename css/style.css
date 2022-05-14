@@ -1,0 +1,129 @@
+/* line 1, ../WIL Project/scss/style.scss */
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Times New Roman', Times, serif;
+  scroll-behavior: smooth;
+  line-height: 1.5; }
+
+/* line 10, ../WIL Project/scss/style.scss */
+ul {
+  list-style: none; }
+
+/* line 14, ../WIL Project/scss/style.scss */
+a {
+  text-decoration: none; }
+
+/* line 18, ../WIL Project/scss/style.scss */
+header {
+  width: 100%;
+  height: 60px;
+  box-shadow: 5px 5px 25px black;
+  z-index: 4;
+  background-color: white;
+  position: fixed; }
+  /* line 27, ../WIL Project/scss/style.scss */
+  header nav {
+    max-width: 90%;
+    max-height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 9px 5px;
+    background-color: white; }
+    /* line 37, ../WIL Project/scss/style.scss */
+    header nav ul {
+      display: flex;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-right: 10pxa;
+      background-color: white;
+      height: 100%; }
+      /* line 47, ../WIL Project/scss/style.scss */
+      header nav ul li {
+        margin-left: 30px;
+        margin-right: 3px;
+        height: 100%; }
+        /* line 51, ../WIL Project/scss/style.scss */
+        header nav ul li a {
+          color: #001aff;
+          font-size: 16px;
+          font-weight: 500;
+          display: inline-block;
+          border-radius: 5px 5px 5px 5px;
+          height: 100%; }
+    /* line 61, ../WIL Project/scss/style.scss */
+    header nav .buttons {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between; }
+    /* line 66, ../WIL Project/scss/style.scss */
+    header nav button {
+      text-align: center;
+      width: 100px;
+      margin-left: 10px;
+      height: 25px;
+      border-radius: 10px 10px 10px 10px;
+      border: solid 2px #0432ff;
+      font-weight: 600;
+      background-color: transparent; }
+    /* line 76, ../WIL Project/scss/style.scss */
+    header nav #signup {
+      margin-bottom: 5px; }
+
+/* line 82, ../WIL Project/scss/style.scss */
+button:hover {
+  background-color: blue;
+  color: white;
+  transform: scale(1); }
+
+/* line 87, ../WIL Project/scss/style.scss */
+li a:hover {
+  background-color: blue;
+  color: white;
+  transform: scale(1.3); }
+
+/* line 95, ../WIL Project/scss/style.scss */
+body {
+  background-color: white; }
+
+/* line 98, ../WIL Project/scss/style.scss */
+.About {
+  width: 95%;
+  height: 350px;
+  margin: 0 auto; }
+  /* line 103, ../WIL Project/scss/style.scss */
+  .About div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #1d1791; }
+    /* line 108, ../WIL Project/scss/style.scss */
+    .About div #first {
+      margin-bottom: 15px; }
+    /* line 111, ../WIL Project/scss/style.scss */
+    .About div p {
+      width: 100%;
+      font-size: 20px;
+      color: whitesmoke; }
+    /* line 116, ../WIL Project/scss/style.scss */
+    .About div img {
+      width: 97%;
+      height: 600px;
+      margin: 0 auto;
+      padding-top: 10px; }
+
+/* line 125, ../WIL Project/scss/style.scss */
+.Home {
+  width: 95%;
+  margin: 0 auto; }
+  /* line 128, ../WIL Project/scss/style.scss */
+  .Home img {
+    margin-top: 50px;
+    width: 100%;
+    height: 600px; }
+
+/*# sourceMappingURL=style.css.map */

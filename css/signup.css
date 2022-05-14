@@ -1,0 +1,62 @@
+/* line 1, ../WIL Project/scss/signup.scss */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  scroll-behavior: smooth; }
+
+/* line 8, ../WIL Project/scss/signup.scss */
+body {
+  background-image: linear-gradient(360deg, rgba(0, 0, 0, 0.37), rgba(0, 0, 0, 0.37)), url(../html/signup/istockphoto-954913804-612x612.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+/* line 14, ../WIL Project/scss/signup.scss */
+header {
+  margin-top: 75px; }
+  /* line 16, ../WIL Project/scss/signup.scss */
+  header h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: whitesmoke;
+    font-weight: 800;
+    text-decoration: none;
+    width: 350px;
+    margin: 0 auto;
+    text-align: center; }
+  /* line 26, ../WIL Project/scss/signup.scss */
+  header #second:hover {
+    transform: rotate(3deg); }
+
+/* line 30, ../WIL Project/scss/signup.scss */
+form {
+  background-color: whitesmoke;
+  width: 50%;
+  margin-bottom: 10px;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serifs;
+  font-size: 13px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-radius: 9px 9px 9px 9px; }
+  /* line 42, ../WIL Project/scss/signup.scss */
+  form select {
+    height: 24px; }
+  /* line 45, ../WIL Project/scss/signup.scss */
+  form #sub {
+    width: 100px;
+    height: 30px;
+    margin-left: 250px;
+    background-color: blue;
+    border: blue;
+    color: white; }
+
+/* line 56, ../WIL Project/scss/signup.scss */
+hr {
+  width: 300px;
+  margin: 0 auto; }
+
+/*# sourceMappingURL=signup.css.map */
